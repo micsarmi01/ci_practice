@@ -45,8 +45,8 @@ public class TransactionsTest {
     @Test
     public void testChangeCost{
         Transaction testTransaction = new Transaction("Test User", 1, 5.00, "Test Title", "March 4 2016", "24:00", "March 3 2016", "March 5 2016", 323, 325, 1);
-        testTransaction.setRentalCost(2.00)
-        assertEquals(2.00,testTransaction.getRentalCost(),0)
+        testTransaction.setRentalCost(2.00);
+        assertEquals(2.00,testTransaction.getRentalCost(),0);
     }
 	
 
